@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <title>ICT Members Club</title>
+</head>
+ <style>
+        body { background-color: #eef2f7; }
+        .card { border: none; border-radius: 15px; }
+        .header { background-color: #0d6efd; color: white; border-radius: 15px 15px 0 0; }
+
+    </style>
+</head>
+<body>
+ <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+
+                <div class="card shadow">
+                    <div class="header text-center p-4">
+                        <h1 class="h3 mb-0">Student Club Members</h1>
+                        <small>Campus ICT 10 - Q2 PARTICIPATION </small>
+                    </div>
+
+                    <div class="card-body p-4">
+                        <div class="mb-3">
+                            <label for="first-name" class="form-label">First Name</label>
+                            <input type="text" id="first-name" class="form-control" placeholder="Enter your Last Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="form-label">Last Name</label>
+                            <input type="text" id="last-name" class="form-control" placeholder="Enter your Last Name">
+                        </div>
+
+                        <button id="add-btn" class="btn btn-primary w-100">
+                            Add Member
+                        </button>
+
+                        <hr class="my-4">
+
+                        <div id="output"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="output"</div>
+    <py-script src="main.py"></py-script>
+
+</body>
+</html>
